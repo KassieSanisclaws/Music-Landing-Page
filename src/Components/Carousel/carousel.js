@@ -17,7 +17,7 @@ export default function Carousel() {
                     </div>
 
                     <div className="img-container">
-                        <img src={Image2}alt="/"/>
+                        <img src={Image2}alt="/"/> 
                     </div>
 
                     <div className="img-container">

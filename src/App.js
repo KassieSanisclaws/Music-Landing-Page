@@ -12,7 +12,7 @@ import Footer from './Components/Footer/footer';
 
 
 function App() {
-
+ 
   return (
    
     <div className="App">
@@ -23,7 +23,7 @@ function App() {
        <Reviews />
        <ContactInfo />
        <Pricing />
-       <ImageSlider imageSlides={ImageSliderData} />
+       <ImageSlider imageSlides={ImageSliderData}/>
       </div> 
       <Footer />
     </div>
