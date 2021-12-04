@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useEffect } from "react";
+import HeroSection from './Components/Hero-Section/heroSection';
+import ProductValue from './Components/Product-Values/productValue';
+import Reviews from './Components/Reviews/reviews';
+import ContactInfo from './Components/Contact-Info/contactInfo';
+import TopBar from './Components/TopBar/topbar';
+import Pricing from './Components/Pricing/pricing';
+import ImageSlider from "./Components/ImageSlider/imageSlider";
+import { ImageSliderData } from './Components/ImageSlider/imageSliderData';
+import Footer from './Components/Footer/footer';
+
 
 function App() {
+
   return (
+   
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopBar />
+      <div className="sections">
+       <HeroSection />
+       <ProductValue />
+       <Reviews />
+       <ContactInfo />
+       <Pricing />
+       <ImageSlider imageSlides={ImageSliderData} />
+      </div> 
+      <Footer />
     </div>
+  
   );
 }
 

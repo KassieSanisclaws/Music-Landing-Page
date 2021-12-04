@@ -1,0 +1,144 @@
+.productValue-body{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(rgba(20, 206, 51, 0.493), rgba(255, 255, 255, 0.466)); */
+}
+
+/* .productValue-body h1{
+        color: rgb(30, 77, 16);
+        margin-left: 4%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        font-style: italic;
+        text-decoration: underline;
+} */
+
+.productValue-sections{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.productValue-image{
+    width: 15vw;
+}
+
+.productValue-card-section{
+    border: rgb(23, 24, 24);
+    padding: 5px;
+    margin-left: -62%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    height: 53vh;
+    max-width: 95vw;
+    overflow: hidden;
+    align-content: center;
+    justify-items: center;
+}
+
+.productValue-section-cards{
+    width: 85vw;
+    
+}
+.intro-card1 span{
+ background-color: rgba(166, 255, 0, 0);
+ font-size: 30px;
+}
+
+.intro-card1{
+    font-size: 41px;
+    text-shadow: 4px 4px 7px #FFFB01;
+}
+
+.productValue-card1{
+    box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.664);
+    align-self: center;
+    height: 10vh;
+    width: 88%;
+    border-radius: 13px;
+    opacity: 0.8;
+}
+
+.productValue-card1:hover{
+background-color: rgba(133, 133, 150, 0.123);
+transform: scale(1.020);
+box-shadow: 1px 1px 1px 1px white;
+border-radius: 13px;
+}
+
+.intro-card2 span{
+    background-color: rgba(166, 255, 0, 0);
+    font-size: 30px;
+   }
+
+.intro-card2{
+    font-size: 41px;
+    text-shadow: 4px 4px 7px #FFFB01;
+}
+
+.productValue-card2{
+    box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.664);
+    align-self: center;
+    height: 10vh;
+    width: 88%;
+    border-radius: 13px;
+    opacity: 0.8;
+}
+
+.productValue-card2:hover{
+    background-color: rgba(133, 133, 150, 0.123);
+    transform: scale(1.025);
+    box-shadow: 1px 1px 1px 1px white;
+}
+
+.intro-card3 span{
+    background-color: rgba(166, 255, 0, 0);
+    font-size: 30px;
+   }
+
+.intro-card3{
+    font-size: 41px;
+    text-shadow: 4px 4px 7px #FFFB01; 
+}
+
+.productValue-card3{
+    box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.664);
+    align-self: center;
+    height: 10vh;
+    width: 88%;
+    border-radius: 13px;
+    opacity: 0.8;
+}
+
+.productValue-card3:hover{
+    background-color: rgba(133, 133, 150, 0.123);
+    transform: scale(1.030);
+    box-shadow: 1px 1px 1px 1px white; 
+}
+
+.intro-card4 span{
+    background-color: rgba(166, 255, 0, 0);
+    font-size: 30px;
+   }
+
+.intro-card4{
+   font-size: 41px;
+   text-shadow: 4px 4px 7px #FFFB01; 
+}
+
+.productValue-card4{
+    box-shadow: 1px 1px 1px 2px rgba(255, 255, 255, 0.664); 
+    align-self: center;
+    height: 10vh;
+    width: 88%;
+    border-radius: 13px;
+    opacity: 0.8;
+}
+
+.productValue-card4:hover{
+    background-color: rgba(133, 133, 150, 0.123);
+    transform: scale(1.035);
+    box-shadow: 1px 1px 1px 1px white;
+}

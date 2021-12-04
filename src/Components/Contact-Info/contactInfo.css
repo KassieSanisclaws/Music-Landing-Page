@@ -1,0 +1,63 @@
+.contactInfo-body{
+   margin: 0;
+   padding: 0;
+}
+
+.contactInfo-body h1{
+        color: rgb(30, 77, 16);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        font-style: italic;
+        text-decoration: underline;
+}
+
+.contactInfo-section{
+    background-image: url(../../Images/Large1bigbitch.png);
+    height: 100%;
+    width: 100%;
+}
+
+.contactInfo-main-header{
+    background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
+    height: 5vh;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contactInfo-mainCard{
+    background: linear-gradient(rgba(233, 233, 230, 0.589), rgba(244, 247, 245, 0.075));
+    height: 85vh;
+    width: 50vw;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.164);
+    border-radius: 13px;
+    margin-left: 24%;
+}
+
+.contactInfo-main-card{
+    height: 45vh;
+    width: 38vw;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+.contactInfo-main-card p{
+    font-size: 25px;
+    color: rgb(6, 36, 15);
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    margin-left: 20%;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+

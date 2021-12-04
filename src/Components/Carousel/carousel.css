@@ -1,0 +1,78 @@
+.carousel-body{
+   display: grid;
+   min-height: 100vh;
+   place-items: center;
+}
+
+.carousel-sliderFrames{
+   height: 780px;
+   margin: auto;
+   position: relative;
+   width: 100%;
+   display: grid;
+   place-items: center;
+   overflow: hidden;
+}
+
+/*---Slider Animation-----*/
+
+.slide-images{
+   display: flex;
+   width: calc(350px * 4); 
+   animation: scroll 40s linear infinite;   
+}
+
+.slide-images:hover{
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-950px * 4));
+    }
+}
+
+.img-container{
+   height: 200px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   padding: 15px;
+   perspective: 100px;
+}
+
+.img-container img{
+    width: 100vw;
+    height: 100vh;
+    transition: transform 1s;
+}
+
+.img-container img:hover{
+    transform: translateZ(50px);
+}
+
+/*---Gradient-Shadows--*/
+.carousel-sliderFrames::before, .carousel-sliderFrames::after{
+background: linear-gradient(to right, rgba(255, 255, 255, 0.219) 0%, rgba(255,255,255,0) 100%);
+content: '';
+height: 100%;
+position: absolute;
+width: 15%;
+z-index: 2;
+}
+
+.carousel-sliderFrames::before{
+    left: 0;
+    top: 0;
+}
+
+.carousel-sliderFrames::after{
+    right: 0;
+    top: 0;
+    transform: rotatez(180deg);
+}
+
+

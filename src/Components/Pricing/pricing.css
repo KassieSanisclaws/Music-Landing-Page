@@ -1,0 +1,204 @@
+.pricing-body{
+    margin: 0;
+    padding: 0;
+    margin-top: 4rem;
+}
+
+.pricing-body-h1{
+        color: rgb(30, 77, 16);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        font-style: italic;
+        text-decoration: underline;
+}
+
+.pricing-section{
+    background: linear-gradient(rgba(227, 230, 23, 0.082), rgba(244, 247, 245, 0.075));
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.pricing-image{
+    width: 15vw;
+    margin-left: -13%;
+}
+
+.pricing-container{
+     width: 66vw;
+     height: 60vh;
+     cursor: pointer;
+     box-sizing: border-box;
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.164);
+     border-radius: 13px;
+     margin-left: -23%;
+}
+
+.pricing-header{
+    background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
+    height: 5vh;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pricing-header h1{
+  font-weight: bold;
+  color: rgb(14, 75, 51);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+
+
+.pricing-header h1:hover{
+  color: rgb(18, 19, 19);
+  font-weight: bolder;
+  font-style: italic;  
+  text-shadow: 4px 4px 4px 4px white;
+  transition: 0.3s all ease-in-out;
+}
+
+.pricing-content-cards{
+      margin-top: 2%;
+      /* // background: linear-gradient(rgba(20, 206, 76, 0.178), rgba(10, 182, 76, 0.075)); */
+      height: 50vh;
+      width: 100%;   
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem;
+      margin-left: 5%;
+}
+
+.pricing-content-card1{
+    /* background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062)); */
+    height: 45vh;
+    width: 19vw;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.pricing-content-card1 p{
+    font-size: 20px;
+    color: rgb(14, 75, 51);
+    font-weight: bolder;
+    margin-left: -15%;
+    text-transform: uppercase;
+}
+
+.pricing-card1-header{
+    background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
+    height: 8vh;
+}
+
+.pricing-card1-header h1{
+    font-weight: bold;
+    color: rgb(14, 75, 51);
+}
+
+.pricing-card1-header h1:hover{
+    color: rgb(23, 85, 43);
+    font-weight: bolder;
+    font-style: italic;  
+    text-shadow: 4px 4px 4px 4px white;
+    transition: 0.3s all ease-in-out;
+ }
+
+.pricing-content-card1:hover{
+  transition: 0.3s all;
+  transform: scale(1.045);
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;  
+}
+
+.pricing-content-card2{
+  /* background: linear-gradient(rgba(20, 206, 76, 0), rgba(10, 182, 76, 0)); */
+  overflow: hidden;
+  height: 45vh;
+  width: 18vw;
+  border-radius: 20px;
+}
+
+.pricing-content-card2 p{
+  font-size: 20px;
+  color: rgb(14, 75, 51);
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.pricing-card2-header{
+  background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
+  overflow: hidden;
+  height: 8vh;
+  margin-top: 1rem;
+}
+
+.pricing-card2-header h1{
+  font-weight: bold;
+  margin-top: -.001rem;
+  color: rgb(14, 75, 51);
+}
+
+.pricing-card2-header h1:hover{
+    color: rgb(23, 85, 43);
+    font-weight: bolder;
+    font-style: italic;  
+    text-shadow: 4px 4px 4px 4px white;
+    transition: 0.3s all ease-in-out;
+    }
+
+.pricing-content-card2:hover{
+  transition: 0.3s all;
+  transform: scale(1.045);
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;  
+}
+
+.pricing-content-card3{
+  /* background: linear-gradient(rgba(20, 206, 76, 0.068), rgba(10, 182, 76, 0.062)); */
+  height: 45vh;
+  width: 17vw;
+  border-radius: 20px;
+}
+
+.pricing-content-card3 p{
+  font-size: 20px;
+  color: rgb(14, 75, 51);
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.pricing-card3-header{
+  background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0));
+  height: 8vh;
+}
+
+.pricing-card3-header h1{
+  font-weight: bold;
+  color: rgb(9, 66, 44);
+  margin-top: 1rem;
+}
+
+.pricing-card3-header h1:hover{
+  color: rgb(23, 85, 43);
+  font-weight: bolder;
+  font-style: italic;  
+  text-shadow: 4px 4px 4px 4px white;
+  transition: 0.3s all ease-in-out;
+  }
+
+.pricing-content-card3:hover{
+  transition: 0.3s all;
+  transform: scale(1.045);
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;  
+}
+
+.pricing-content:hover{
+    transition: 0.3s all;
+   transform: scale(1.045); 
+}

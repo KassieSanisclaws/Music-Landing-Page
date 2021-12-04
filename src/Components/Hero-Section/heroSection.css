@@ -1,0 +1,12 @@
+.heroSection-body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.heroSection-sections{
+    /* background: linear-gradient(rgba(20, 206, 51, 0.493), rgba(255, 255, 255, 0.466)); */
+    height: 95vh;
+    width: 100%;
+    
+}

@@ -1,0 +1,223 @@
+.reviews-body{
+    margin: 0;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+.reviews-body h1{
+    color: rgb(30, 77, 16);
+    margin-left: 4%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.reviews-sections{
+    height: 100%;
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    
+}
+
+.reviews-image{
+    width: 15vw;
+}
+
+.reviews-cards{
+    /* background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075)); */
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2rem;
+  padding: 5px;
+  height: 75vh;
+  width: 55vw;
+  margin-left: -33%;
+}
+
+.reviews-card1{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.521);
+    height: 15vh;   
+    border-radius: 45px;
+}
+
+.reviews-card1-body{
+    background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
+    height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3px;
+    justify-items: center;
+    border-radius: 41px;
+}
+
+.reviews-card1-body-section1{
+    background-image: url(../../Images/speer-assignment-pic1.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-position: 50% 10%;
+    align-self: center;
+    height: 13vh;
+    width: 7vw;
+    border-radius: 50%;
+}
+
+.reviews-card1-body-section2{
+    align-self: center;
+    height: 11vh;
+    width: 37vw;
+    border-radius: 55px;
+    margin-right: 4%;
+}
+
+.reviews-card1-body-section2 p{
+    margin-left: -17%;
+    text-decoration: wavy;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(30, 77, 16);
+}
+
+.reviews-card2{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.521);
+    height: 15vh;   
+    border-radius: 45px;
+}
+
+.reviews-card2-body{
+    background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
+    height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3px;
+    justify-items: center;
+    border-radius: 41px;
+}
+
+.reviews-card2-body-section1{
+    background-image: url(../../Images/speer-assignment-pic2.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-position: 50% 10%;
+    align-self: center;
+    height: 13vh;
+    width: 7vw;
+    border-radius: 50%;
+}
+
+.reviews-card2-body-section2{
+    align-self: center;
+    height: 11vh;
+    width: 37vw;
+    border-radius: 55px;
+    margin-right: 4%;
+}
+
+.reviews-card2-body-section2 p{
+    margin-left: -23%;
+    text-decoration: wavy;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(30, 77, 16);
+}
+
+.reviews-card3{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.521);
+    height: 15vh;   
+    border-radius: 45px;
+}
+
+.reviews-card3-body{
+    background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
+    height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3px;
+    justify-items: center;
+    border-radius: 41px;
+}
+
+.reviews-card3-body-section1{
+    background-image: url(../../Images/speer-assignment-pic3.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-position: 50% 10%;
+    align-self: center;
+    height: 13vh;
+    width: 7vw;
+    border-radius: 50%;
+}
+
+.reviews-card3-body-section2{
+    align-self: center;
+    height: 11vh;
+    width: 37vw;
+    border-radius: 55px;
+    margin-right: 4%;
+}
+
+.reviews-card3-body-section2 p{
+    margin-left: -23%;
+    text-decoration: wavy;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(30, 77, 16);
+}
+
+.reviews-card4{
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.521);
+    height: 15vh;   
+    border-radius: 45px;
+}
+
+.reviews-card4-body{
+    background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
+    height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3px;
+    justify-items: center;
+    border-radius: 41px;
+}
+
+.reviews-card4-body-section1{
+    background-image: url(../../Images/speer-assignment-pic4.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-position: 50% 10%;
+    align-self: center;
+    height: 13vh;
+    width: 7vw;
+    border-radius: 50%;
+}
+
+.reviews-card4-body-section2{
+    align-self: center;
+    height: 11vh;
+    width: 37vw;
+    border-radius: 55px;
+    margin-right: 4%;
+}
+
+.reviews-card4-body-section2 p{
+    margin-left: -23%;
+    text-decoration: wavy;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(30, 77, 16);
+}
