@@ -49,7 +49,7 @@ span{
     background-color: rgba(230, 226, 47, 0.993);
     transform-origin: left;
     transition: all 0.1s ease-in-out;
-    z-index: 5;
+    z-index: 2;
 }
 
 

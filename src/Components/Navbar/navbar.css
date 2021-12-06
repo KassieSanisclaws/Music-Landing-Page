@@ -40,7 +40,7 @@
 }
 
 .logo:hover span:last-child{
-    color: rgba(49, 51, 49, 0.795);
+    color: rgb(14, 75, 51);
     animation: logo 0.15s ease-in-out forwards;
 }
 
@@ -106,8 +106,8 @@
 
 
 :active .navbar-body .navbar-right .hamburger span{
-    background-color: rgb(2, 19, 7);
-    backdrop-filter: blur(15px);
+    /* background-color: rgb(2, 19, 7);
+    backdrop-filter: blur(15px); */
 }
 
 :active .navbar-section .navbar-right .hamburger span:first-child{

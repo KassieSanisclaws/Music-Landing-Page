@@ -12,7 +12,7 @@ const Navbar = ({menuOpen, setMenuOpen, setMenuItem}) => {
              <div className="navbar-left"> 
                <a href="#intro" className="logo" onClick={() => setMenuOnClick("intro")}>
             <span className="logo-span">Epicon</span>
-            <span className="logo-span2">Muzic</span> 
+            <span className="logo-span2">Muzi©</span> 
           
           </a>
                </div>
