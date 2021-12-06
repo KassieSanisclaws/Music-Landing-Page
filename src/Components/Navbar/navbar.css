@@ -1,0 +1,127 @@
+.navbar-body{
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  position: fixed;
+  z-index: 50;
+  transition: all 0.25s ease-in-out;
+}
+
+.navbar-section{
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+/*---logo Style---*/
+.logo {
+    /* font-family: 'Pinyon Script', cursive;
+    font-family: 'Ranga', cursive;
+    font-family: 'Almendra Display', cursive; */
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+/*---Working---*/
+.logo:hover span:first-child{
+    color: rgba(251, 255, 8, 0.884);
+    position: absolute;  
+    left: 1px;
+    animation: logo-static 0.15s ease-in-out forwards;
+    animation-delay: .1s;
+}
+
+.logo:hover span:last-child{
+    color: rgba(49, 51, 49, 0.795);
+    animation: logo 0.15s ease-in-out forwards;
+}
+
+/*-----Working----*/
+.logo span{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    top:5px;
+}
+
+.logo span:first-child{
+    color: rgba(251, 255, 8, 0.829);
+    position: absolute;  
+    left: 50px;
+}
+
+.logo span:last-child{
+    position:  absolute;  
+    color: deeppink;
+    opacity: 0;
+    left: 98px;
+}
+
+@keyframes logo-static{
+    from{
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: skewX(40deg);
+        transform: translateX(-48px);
+    }
+}
+
+@keyframes logo {
+    from{
+        transform: skewX(-40deg);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(-48px);
+        opacity: 1;
+    }
+}
+
+.navbar-right .hamburger{
+        width: 32px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+.navbar-body .navbar-right .hamburger span{
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(rgb(255, 217, 0), rgb(3, 61, 25));
+    transform-origin: left;
+    transition: all 0.1s ease-in-out;
+}
+
+
+:active .navbar-body .navbar-right .hamburger span{
+    background-color: rgb(2, 19, 7);
+    backdrop-filter: blur(15px);
+}
+
+:active .navbar-section .navbar-right .hamburger span:first-child{
+    transform: rotate(45deg);
+}
+
+:active .navbar-section .navbar-right .hamburger span:nth-child(2){
+    opacity: 0;
+}
+
+:active .navbar-section .navbar-right .hamburger span:nth-child(3){
+    opacity: 0;
+}
+
+:active .navbar-section .navbar-right .hamburger span:last-child{
+    transform: rotate(-45deg);
+}

@@ -1,0 +1,94 @@
+.menu-body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu {
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    height: calc(100vh - 80px);
+    right: -100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
+    backdrop-filter: blur(15px);
+}
+
+:active .menu {
+    right: 0;
+}
+
+.left {
+    flex: 0.65;
+}
+
+/* @media (max-width: 768px) {
+    .left{
+       flex: 0.5;
+    }
+} */
+
+@media (max-width: 1024px){
+    .left{
+        flex: 0.75;
+    }
+}
+
+
+.right{
+    flex: 0.35;
+}
+
+@media (max-width: 768px){
+    .right{
+        flex: 0.75;
+    }
+}
+
+.menuItems ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* color: rgb(23, 23, 221); */
+}
+
+.menuItems li{
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+.menuItems a{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-decoration: none;
+
+    /* Create the gradient. */
+    background-image: linear-gradient(90deg, rgb(27, 116, 27) 0%, rgba(255,255,255,1) 50.5%, rgb(18, 181, 132) 50.6%, rgb(83, 181, 18) 100%);
+    cursor:pointer;
+
+    /* Set the background size and repeat properties. */
+    background-size: 700%;
+    transition: all 0.5s ease-in-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.menuItems:hover {
+    background-position-x: 300px;
+}
+
+:active .menuItems {
+    color: hotpink !important;
+    background-image: none;
+}
+
+:active .menuItems:hover{
+    cursor: default;
+}

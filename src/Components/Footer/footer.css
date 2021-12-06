@@ -6,6 +6,18 @@
 .footer-section{
     background: linear-gradient(rgba(227, 230, 23, 0.384), rgba(244, 247, 245, 0.075));
     width: 100%;
-    height: 10vh;  
+    height: 8vh;  
     margin-top: 1rem;
+    border-radius: 20px;
+    
+}
+
+.footer-section h3{
+    transform: skew(0deg);
+    color: rgb(14, 75, 51);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Lucida handwriting";text-decoration: underline;
+    
 }

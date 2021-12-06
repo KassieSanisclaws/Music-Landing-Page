@@ -1,4 +1,4 @@
-.topbar-body{
+/* .topbar-body{
     width: 100vw;
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -30,9 +30,9 @@ span{
     color: rgb(220, 233, 44);
     position: absolute;  
     left: 1px;
-}
+} */
 
-.hamburger{
+/* .hamburger{
         width: 32px;
         height: 25px;
         display: flex;
@@ -40,7 +40,7 @@ span{
         justify-content: space-between;
         cursor: pointer;
         
-    }
+    } */
 
 
 span{
@@ -49,6 +49,7 @@ span{
     background-color: rgba(230, 226, 47, 0.993);
     transform-origin: left;
     transition: all 0.1s ease-in-out;
+    z-index: 5;
 }
 
 

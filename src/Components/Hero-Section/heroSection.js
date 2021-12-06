@@ -6,7 +6,7 @@ export default function HeroSection() {
     return (
         <div className="heroSection-body">
 
-            <div className="heroSection-sections">
+            <div className="heroSection-sections" id="heroSection">
               <Carousel />
               {/* <ImageSlider imageSlides={ImageSliderData}/> */}
 
